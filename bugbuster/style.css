@@ -1,0 +1,80 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+#name {
+    text-align: center;
+    background-color: #563D7C;
+    color: whitesmoke;
+    margin-bottom: 0;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#search {
+    margin-left: 65%;
+}
+
+#navName {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.nav-item {
+    margin: none;
+    height: 40px;
+
+}
+
+#nav {
+    background-color: #7952B3;
+}
+
+.navbar {
+    padding: 0rem 0rem;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: whitesmoke;
+}
+
+.btn {
+    color: whitesmoke;
+    background-color: #563D7C;
+}
+
+.btn:hover {
+    color: #212529;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+#scope {
+    padding-top: 2rem;
+}
+
+.section {
+    padding-left: 4rem;
+}
+
+.card {
+    background-color: #FEFAF1;
+}
+
+#post {
+    border: 1px solid rgb(255, 0, 0);
+    top: 40rem;
+    right: 10rem;
+    padding: 1rem;
+    margin: 2rem;
+    position: fixed;
+    float: right;
+    border-radius: 50%;
+    z-index: 1;
+}
